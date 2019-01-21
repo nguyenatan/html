@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 10px;
+    color: red;
+    font-family: 'VT323', monospace;
+}
+
+h2 {
+    display: inline;
+    background-color: aqua;
+
+    font-weight: 300;
+    font-size: 50px;
+    border: 2px solid blue;
+    padding: 5px 30px;
+    margin: 60px;
+}
+
+h3 {
+    border: 2px dotted black;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+div.content {
+    float: left;
+    width: 50%;
+}
+
+div.avatar {
+    float: left;
+    width: 50%;
+}
+
+img#kunkka {
+    width: 50%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+p.cssStyle {
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+
+div#content p {
+    width: 600px;
+    background: #ffff00;
+}
+
+div.navi span { background: #00ffff; }
+
+div#content ul li {
+    display: inline;
+    color: #fff;
+    background: #000;
+    font-size: 32px;
+}
+
+textarea {
+    display: block;
+}
