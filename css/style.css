@@ -5,7 +5,7 @@
 }
 
 h1 {
-    margin: 10px;
+    margin: 20px;
     color: red;
     font-family: 'VT323', monospace;
 }
@@ -27,9 +27,22 @@ h3 {
     padding: 10px;
 }
 
+div.container {
+    background: papayawhip;
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
 div.content {
     float: left;
     width: 50%;
+}
+
+div.date {
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 div.avatar {
@@ -38,7 +51,7 @@ div.avatar {
 }
 
 img#kunkka {
-    width: 50%;
+    width: 100%;
 }
 
 .clearfix::after {
