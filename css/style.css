@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Lato', sans-serif;
+}
+
 h1 {
     margin: 20px;
     color: red;
@@ -23,12 +27,13 @@ h2 {
 
 h3 {
     border: 2px dotted black;
-    margin-top: 10px;
+    margin: 20px;
     padding: 10px;
 }
 
 div.container {
-    background: papayawhip;
+    background: lavender;
+    padding-top: 20px;
     width: 1140px;
     margin: 0 auto;
     position: relative;
@@ -45,9 +50,10 @@ div.date {
     left: 0px;
 }
 
-div.avatar {
+div.image {
     float: left;
-    width: 50%;
+    width: 40%;
+    margin: 20px;
 }
 
 img#kunkka {
@@ -61,16 +67,29 @@ img#kunkka {
 }
 
 p.cssStyle {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 200%;
+    font-weight: bold;
+    font-style: italic;
     letter-spacing: 5px;
+    line-height: 2;
+    word-spacing: 10px;
     text-decoration: underline;
+}
+
+div#content {
+    background-color: plum;
+    width: 1140px;
+    margin: 10px auto;
+    padding: 20px;
 }
 
 div#content p {
     width: 600px;
-    background: #ffff00;
+    margin: 10px 0;
+    background-color: rebeccapurple;
+    color: wheat;
 }
-
-div.navi span { background: #00ffff; }
 
 div#content ul li {
     display: inline;
@@ -79,6 +98,17 @@ div#content ul li {
     font-size: 32px;
 }
 
-textarea {
+div.navi {
+    width: 1140px;
+    margin: 10px auto;
+}
+
+div.navi span { background: #00ffff; }
+
+input, textarea {
     display: block;
+}
+
+input {
+    margin: 20px;
 }
